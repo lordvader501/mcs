@@ -1,8 +1,22 @@
-# React + Vite
+# Assignment
+## production link
+frontend:-
+https://mcs-puce.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+backend:- https://mcsbackend.vercel.app/ca
 
-Currently, two official plugins are available:
+## development setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+clone repo `https://github.com/lordvader501/mcs.git`
+
+install dependencies `npm i`
+
+run `npm run server`
+
+run `npm run dev` in other terminal
+
+## screenshots
+![image](https://github.com/lordvader501/mcs/assets/60027612/b2588391-9ac3-4852-ae9d-0ac5e6a17778)
+![image](https://github.com/lordvader501/mcs/assets/60027612/a5c752f1-e75e-4417-ac63-92cab6fc1d3a)
+
+
