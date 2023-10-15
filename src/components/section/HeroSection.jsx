@@ -14,8 +14,8 @@ function HeroSection() {
     if (searchQuery && search) {
       fetch(
         `${import.meta.env.VITE_HOST}${
-          import.meta.env.VITE_PORT
-        }/ca?name_like=${searchQuery}`
+          import.meta.env.VITE_PORT ? `${import.meta.env.VITE_PORT}` : ""
+        }}/ca?name_like=${searchQuery}`
       )
         .then((response) => response.json())
         .then((data) => setSearchResults(data));
