@@ -12,7 +12,11 @@ function HeroSection() {
 
   useEffect(() => {
     if (searchQuery && search) {
-      fetch(`http://localhost:3000/ca?name_like=${searchQuery}`)
+      fetch(
+        `${import.meta.env.VITE_HOST}${
+          import.meta.env.VITE_PORT
+        }/ca?name_like=${searchQuery}`
+      )
         .then((response) => response.json())
         .then((data) => setSearchResults(data));
     } else {

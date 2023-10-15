@@ -32,7 +32,9 @@ function UsersInfoPage() {
   ];
 
   useEffect(() => {
-    fetch(`http://localhost:3000/ca/${userId.id}`)
+    fetch(
+      `${import.meta.env.VITE_HOST}${import.meta.env.VITE_PORT}/ca/${userId.id}`
+    )
       .then((response) => response.json())
       .then((data) => setUserDetails(data));
   }, [userId]);
